@@ -1,0 +1,25 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "ts-node server/server.ts",
+    "client": "ts-node client/client.ts",
+    "client:connect": "ts-node client/client.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "concurrently": "^10.0.3",
+    "http-server": "^14.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
